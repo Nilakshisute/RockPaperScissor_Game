@@ -1,4 +1,4 @@
-# 🎮 Rock Paper Scissors - Enhanced Edition
+# 🎮 Rock Paper Scissors - Game
 
 A modern, interactive Rock Paper Scissors game built with vanilla HTML, CSS, and JavaScript. Features a beautiful glassmorphism UI, smooth animations, and real-time computer move visualization.
 
