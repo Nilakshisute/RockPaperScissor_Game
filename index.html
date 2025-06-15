@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Rock Paper Scissors 🎮</h1>
+        
+        <div class="game-area">
+            <div class="player-section">
+                <h2 class="section-title">👤 Your Choice</h2>
+                <div class="choices">
+                    <div class="choice" data-choice="rock">
+                        <div class="choice-icon">🪨</div>
+                    </div>
+                    <div class="choice" data-choice="paper">
+                        <div class="choice-icon">📄</div>
+                    </div>
+                    <div class="choice" data-choice="scissors">
+                        <div class="choice-icon">✂️</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vs-section">
+                <div class="vs-text">VS</div>
+                <button class="reset-btn" onclick="resetGame()">🔄 Reset</button>
+            </div>
+
+            <div class="computer-section">
+                <h2 class="section-title">🤖 Computer Choice</h2>
+                <div class="computer-choice" id="computer-choice">
+                    <div class="computer-choice-icon" id="computer-choice-icon">❓</div>
+                </div>
+                <div style="font-size: 0.9rem; opacity: 0.8;">Thinking...</div>
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score-item">
+                <div class="score-label">Your Score</div>
+                <div class="score-value" id="user-score">0</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">Computer Score</div>
+                <div class="score-value" id="comp-score">0</div>
+            </div>
+        </div>
+
+        <div class="msg-container">
+            <div class="msg default" id="msg">🎯 Choose your weapon to start!</div>
+        </div>
+
+        <div class="game-stats">
+            <span>Games Played: <span id="games-played">0</span></span>
+            <span>Win Rate: <span id="win-rate">0%</span></span>
+        </div>
+    </div>
+     <script src="script.js"></script>
+</body>
+</body>
+</html>
